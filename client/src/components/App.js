@@ -5,9 +5,20 @@ import { connect } from 'react-redux';
 import * as actions from '../actions';
 
 import Header from './Header';
-import Landing from './Landing';
+// import Landing from './Landing';
 import Dashboard from './Dashboard';
 import SurveyNew from './surveys/SurveyNew';
+
+const Landing = () => {
+  return (
+    <div style={{ textAlign: 'center' }}>
+      <h1>
+        Emaily!
+      </h1>
+      Collect feedback form your users
+    </div>
+  );
+};
 
 class App extends Component {
   componentDidMount() {
