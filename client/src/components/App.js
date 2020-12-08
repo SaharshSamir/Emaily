@@ -16,6 +16,14 @@ const Landing = () => {
         Emaily!
       </h1>
       Collect feedback form your users
+      <div style={{margin: '20px'}}>
+        <a href="/surveys" class="waves-effect waves-light btn">
+          <i class="material-icons right">
+            input
+          </i>
+          Dashboard
+        </a>
+      </div>
     </div>
   );
 };
